@@ -1,9 +1,9 @@
 #include <stdio.>
 
 /**
-* main -print the string in the put function
+* main - print the string in the put function
 *
-* Decriptin: using the main function
+* Decription: using the main function
 * this program prints "Programming is like building a multilingual puzzle
 * Return: 0
 */
