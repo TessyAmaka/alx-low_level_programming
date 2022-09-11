@@ -1,28 +1,22 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
 /**
  * main - Entry point
- *
- * Return: Always 0 (seccess/correct)
+ * Return: Always 0 (Success)
  */
 int main(void)
-
 {
-char lower_case;
-char upper_case;
-
-for (lower_case = 'a'; lower_case <= 'z'; lower_case++)
+char low;
+for (low = 'a'; low <= 'z'; low++)
 {
-putchar(lower_case);
+putchar(low);
 }
-
-for (upper_case = 'A'; upper_case <= 'Z'; upper_case++)
+for (low = 'A'; low <= 'Z'; low++)
 {
-putchar(upper_case);
+putchar(low);
 }
-
-
 putcher('\n');
-
 return (0);
-
 }
