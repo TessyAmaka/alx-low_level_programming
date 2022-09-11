@@ -1,24 +1,45 @@
 #include <stdio.h>
+
+#include <stdlib.h>
+
+#include <time.h>
+
+
+
 /**
  *
- * Return: 0 success
- */
+ *  * main - Entry point
+ *
+ *   * Return: Always 0 (Success)
+ *
+ *    */
+
 int main(void)
 
 {
-char base_16;
 
-for (base_16 = 48; base_16 <=57; base_16++)
-{putchar(base_16);
-}
+	int digit;
 
-for (base_16 = 97; base_16 <=102; base_16++)
-{
-putchar(base_16);
-}
+	char low;
 
-putchar('\n');
+	for (digit = '0'; digit <= '9'; digit++)
 
-return (0);
+	{
+
+		putchar(digit);
+
+	}
+
+	for (low = 'a'; low <= 'f'; low++)
+
+	{
+
+		putchar(low);
+
+	}
+
+	putchar('\n');
+
+	return (0);
 
 }

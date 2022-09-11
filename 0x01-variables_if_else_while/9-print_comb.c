@@ -1,28 +1,46 @@
 #include <stdio.h>
+
+#include <stdlib.h>
+
+#include <time.h>
+
+
+
 /**
- * main - entry point
  *
- * Return: 0 Success
- */
+ *  * main - Entry point
+ *
+ *   * Return: Always 0 (Success)
+ *
+ *    */
+
 int main(void)
 
 {
-	int number;
 
-	for (number = 48; number <= 57; number++)
+	int digit;
+
+	for (digit = '0'; digit <= '9'; digit++)
+
 	{
-		putchar(number);
 
-		if (number == 57)
+		putchar(digit);
+
+		if (digit != '9')
+
 		{
-			break;
+
+			putchar(',');
+
+			putchar(' ');
+
 		}
 
-		putchar(',');
-		putchar (' ');
 	}
-	
+
 	putchar('\n');
 
-	return (0)
+	return (0);
+
+}
 }
