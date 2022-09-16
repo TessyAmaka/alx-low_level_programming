@@ -3,7 +3,7 @@
 /**
  * print_alphabet_x10 - Check main
  * Description: function uses _putchar function to print
- * aphabet in lowercase 10 times
+ * alphabet in lowercase 10 times
  * Return: Nothing.
 */
 void print_alphabet_x10(void)
