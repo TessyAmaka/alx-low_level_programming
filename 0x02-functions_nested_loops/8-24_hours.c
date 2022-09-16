@@ -4,7 +4,7 @@
  * jack_bauer - Check main
  * Description: function prints every minute in one day
  * Return: Nothing
-*/
+ */
 void jack_bauer(void)
 {
 int H, M;
