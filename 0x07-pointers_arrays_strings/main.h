@@ -1,0 +1,10 @@
+_putchar(char c);
+ *_memeset(char *s, char b, unsigned int n);
+ *_memcpy(char *dest, char *src, unsigned int n);
+ *_strchr(char *s, char c);
+ signed int _strspn(char *s, char *accept);
+ *_strpbrk(strpbrk(char *s, char *accept);
+ *_strstr(char *haystack, char *needle);
+ print_chessboard(char (*a)[8]);
+ set_stri(char **s, char *to);
+ print_diagsums(int *a, int size);
